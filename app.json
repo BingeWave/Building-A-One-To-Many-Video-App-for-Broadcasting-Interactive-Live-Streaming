@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "bingewave-app-broadcast-stream",
+    "slug": "bingewave-app-broadcast-stream",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "bingewave-app-broadcast-stream"
+}
