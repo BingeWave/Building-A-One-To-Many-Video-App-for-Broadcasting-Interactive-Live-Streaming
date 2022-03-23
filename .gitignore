@@ -1,55 +1,61 @@
 # OSX
 #
 .DS_Store
+mobile/.DS_Store
 
 # Xcode
 #
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
-project.xcworkspace
+mobile/build/
+mobile/*.pbxuser
+mobile/!default.pbxuser
+mobile/*.mode1v3
+mobile/!default.mode1v3
+mobile/*.mode2v3
+mobile/!default.mode2v3
+mobile/*.perspectivev3
+mobile/!default.perspectivev3
+mobile/xcuserdata
+mobile/*.xccheckout
+mobile/*.moved-aside
+mobile/DerivedData
+mobile/*.hmap
+mobile/*.ipa
+mobile/*.xcuserstate
+mobile/project.xcworkspace
 
 # Android/IntelliJ
 #
-build/
-.idea
-.gradle
-local.properties
-*.iml
-*.hprof
+mobile/build/
+mobile/.idea
+mobile/.gradle
+mobile/local.properties
+mobile/*.iml
+mobile/*.hprof
 
 # node.js
 #
-node_modules/
-npm-debug.log
-yarn-error.log
+mobile/node_modules/
+mobile/npm-debug.log
+mobile/yarn-error.log
 
 # BUCK
-buck-out/
-\.buckd/
-*.keystore
-!debug.keystore
+mobile/buck-out/
+mobile/\.buckd/
+mobile/*.keystore
+mobile/!debug.keystore
 
 # Bundle artifacts
-*.jsbundle
+mobile/*.jsbundle
 
 # CocoaPods
-/ios/Pods/
+mobile/ios/Pods/
 
 # Expo
-.expo/
-web-build/
-dist/
+mobile/.expo/
+mobile/web-build/
+mobile/dist/
+
+#Backend
+backend/node_modules/
+backend/npm-debug.log
+backend/yarn-error.log
