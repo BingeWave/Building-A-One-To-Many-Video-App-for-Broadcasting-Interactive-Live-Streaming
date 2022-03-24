@@ -16,12 +16,7 @@ To read the full tutorial, please visit here: [https://medium.com/bingewave/buil
 To install, please follow the steps below.
 
  1. Clone this repose to your local computer.
- 2. Go onto [BingeWave](https://developers.bingewave.com/), register for an account and create a Live Event. 
- 3. Go into the backend/ folder and run `npm install` on the command line. In the .env file, add your organizer token.
- 4. Go into mobile/ folder and run `npm install` on the command line. In the mobile/screens/Chat.js and mobile/screens/Stream.js, be sure to enter the id of a live event. Run expo start to start.
- 5. In web/ folder, in the files chat.html and stream. html, replace the id with a live event id.
+ 2. Go onto [BingeWave](https://developers.bingewave.com/), register for an account and create a Live Event.
+ 4. Go into mobile/ folder and run `npm install` on the command line. In the mobile/screens/Chat.js and mobile/screens/Stream.js, be sure to enter the id of a live event. Run `expo start` to start the mobile app interface.
+ 5. In web/ folder, in the files chat.html and stream.html, replace the id with a live event id.
 
-- [BWEvents](https://developers.bingewave.com/javascript/bwevents)
-- [BWState](https://developers.bingewave.com/javascript/bwstate)
-- [BWProperties](https://developers.bingewave.com/javascript/bwproperties)
-- [Dynamic Placeholders](https://developers.bingewave.com/javascript/placeholders)
